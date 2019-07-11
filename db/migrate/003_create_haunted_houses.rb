@@ -11,6 +11,7 @@ class CreateHauntedHouses < ActiveRecord::Migration[4.2]
       t.integer :opening_date
       t.integer :closing_date
       t.string :long_description
+    end
   end
 
 end
