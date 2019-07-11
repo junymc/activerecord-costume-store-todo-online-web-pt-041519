@@ -10,6 +10,7 @@
 class CreateCostumes < ActiveRecord::Migration
 
   def change
+    create_table :name, :string
   end
 
 end
